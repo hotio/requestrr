@@ -1,0 +1,7 @@
+#!/command/with-contenv bash
+# shellcheck shell=bash
+
+umask "${UMASK}"
+
+cd "${APP_DIR}/bin" || exit 1
+exec s6-setuidgid hotio "${APP_DIR}/bin/Requestrr.WebApi"
