@@ -1,26 +1,2 @@
 {
-  "release": {
-    "description": "Releases",
-    "hide": false,
-    "last_updated": "2024-03-07T06:12:59.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/8183741613",
-    "latest": true,
-    "tags": [
-      "release",
-      "release-0.21.1960",
-      "release-c74a323"
-    ]
-  },
-  "testing": {
-    "description": "Pre-releases",
-    "hide": false,
-    "last_updated": "2024-03-07T06:13:06.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/8183741909",
-    "latest": false,
-    "tags": [
-      "testing",
-      "testing-0.21.1960",
-      "testing-61339b7"
-    ]
-  }
 }
