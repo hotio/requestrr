@@ -12,7 +12,7 @@ ARG VERSION
 RUN mkdir "${APP_DIR}/bin" && \
     curl -fsSL "https://github.com/thomst08/requestrr/releases/download/V${VERSION}/requestrr-linux-musl-x64.tar.gz" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
     chmod -R u=rwX,go=rX "${APP_DIR}" && \
-    chown -R hotio:hotio "${APP_DIR}" && \
+    rmdir "${APP_DIR}/bin/config" && \
     ln -s "${CONFIG_DIR}" "${APP_DIR}/bin/config"
 
 COPY root/ /
