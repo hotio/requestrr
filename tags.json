@@ -2,13 +2,13 @@
   "release": {
     "description": "Releases",
     "hide": false,
-    "last_updated": "2025-07-15T23:29:36.000Z",
-    "last_updated_url": "https://github.com/hotio/requestrr/actions/runs/16306445221",
+    "last_updated": "2025-08-17T18:40:33.000Z",
+    "last_updated_url": "https://github.com/hotio/requestrr/actions/runs/17024453402",
     "latest": true,
     "tags": [
       "release",
       "release-2.1.8",
-      "release-c7e6e34"
+      "release-817a87f"
     ]
   }
 }
